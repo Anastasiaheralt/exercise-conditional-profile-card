@@ -34,7 +34,7 @@ function render(variables = {}) {
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
           <h1>${variables.name ? variables.name : " "}${
-    variables.lastname ? variables.lastname : ""
+    variables.lastname ? variables.lastname : " "
   }</h1>          
           <h2>${variables.role ? variables.role : ""}</h2>
           <h3>${variables.city ? variables.city : ""} ${
@@ -43,10 +43,10 @@ function render(variables = {}) {
        
             <ul class="position-left">
             
-            <li><a href="https://twitter.com/4geeksacademy"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://github.com/4geeksacademy"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/4geeksacademy"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/4geeksacademy"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/raimon_k"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://github.com/anastasiaheralt"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://linkedin.com/rosimarherrera"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://instagram.com/anastasiaheralt"><i class="fa-brands fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
