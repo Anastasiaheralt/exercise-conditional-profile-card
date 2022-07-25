@@ -41,12 +41,20 @@ function render(variables = {}) {
     variables.country ? variables.country : ""
   }</h3>
        
-            <ul class="position-left">
+            <ul class="position-right">
             
-            <li><a href="https://twitter.com/raimon_k"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://github.com/anastasiaheralt"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/rosimarherrera"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/anastasiaheralt"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><h7>${
+              variables.twitter ? variables.twitter : " "
+            }</h7><a href="https://twitter.com/raimon_k"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><h7>${
+              variables.github ? variables.github : " "
+            }</h7><a href="https://github.com/anastasiaheralt"><i class="fa-brands fa-github"></i></a></li>
+            <li><h7>${
+              variables.linkedin ? variables.linkedin : " "
+            }</h7><a href="https://linkedin.com/rosimarherrera"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><h7>${
+              variables.instagram ? variables.instagram : " "
+            }</h7><a href="https://instagram.com/anastasiaheralt"><i class="fa-brands fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
@@ -67,7 +75,7 @@ window.onload = function() {
     socialMediaPosition: "position-left",
     // social media usernames
     twitter: null,
-    github: "anastasiaheralt",
+    github: null,
     linkedin: null,
     instagram: null,
     name: null,
